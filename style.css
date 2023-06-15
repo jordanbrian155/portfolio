@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.cover {
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(54, 54, 75);
+    display: flex;
+    flex-direction: column;
+}
+.portfolio {
+    width: 100%;
+    /* display: flex; */
+    height: 100%;
+}
+
+.anchor h1 {
+    color: white;
+    font-size: 30px;
+    margin-right: 30px;
+}
+.anchor {
+    display: flex;
+    margin-left: 8%;
+    margin-top: 40px;
+}
+.anchor a {
+    color: rgb(185, 184, 184);
+    text-decoration: none;
+    margin-right: 7%;
+    font-size: 25px;
+    font-weight: 400;
+}
+.anchor i {
+    color: antiquewhite;
+    font-size: 30px;
+    margin-left: 2%;
+}
+.welcome {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-left: 13%;
+    
+}
+.welcome {
+    margin-top: 10%;
+}
+.welcome h3 {
+    color: rgb(172, 174, 175);
+     font-size: 45px;
+     width: 30%;
+}
+.welcome p {
+    color:rgb(172, 174, 175);
+    width: 40%;
+    font-size: 25px;
+    margin-top: 3%;
+}
+.welcome button {
+    width: 200px;
+    height: 50px;
+    color: antiquewhite;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-top: 2%;
+    border: none;
+    background-color: rgb(0, 102, 255);
+}
+.About {
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(54, 54, 75);
+}
+.more {
+    margin-left: 10%;
+}
+.more h5 {
+    color: rgb(151, 150, 150);
+    font-size: 60px;
+}
+.more p {
+    color: rgb(172, 174, 175);
+    font-size: 27px;
+    width: 50%;
+}
+.project {
+    width: 100%;
+    /* display: flex; */
+    height: 160vh;
+    background-color: rgb(54, 54, 75);
+}
+.reject {
+    color: rgb(151, 150, 150);
+    font-size: 60px;
+    display: flex;
+    margin-left: 15%;
+}
+.community img {
+    width: 100%;
+    height: 30vh;
+    /* margin-left: 20%; */
+}
+.community2 img {
+    width: 100%;
+    /* margin-left: 100px; */
+    height: 30vh;
+}
+.recipe {
+    flex-direction: row;
+    display: flex;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+.community {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.access {
+    box-shadow: 3px 3px 20px rgb(250, 239, 218);
+}
+.community2 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 80px;
+    display: flex;
+
+}
+.content {
+     box-shadow:  3px 3px 20px rgb(250, 239, 218);
+}
+.source a {
+    color: pink;
+    text-decoration: none;
+    margin-left: 90px;
+    font-size: 20px;
+}
+.skills {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.skills button {
+    width: 90px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    margin-right: 25%;
+    border-radius: 12px;
+    background-color: brown;
+    color: antiquewhite;
+}
+.community p {
+   color: rgb(172, 174, 175);
+   font-size: 20px;
+   /* margin-left: 15%; */
+   margin-top: 3%;
+   text-align: center;
+}
+.community h6 {
+    color: rgb(81, 161, 252);
+    font-size: 30px;
+    margin-left: 40%;
+    margin-top: 6%;
+}
+.community2 h3 {
+    color: rgb(81, 161, 252);
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 2%;
+}
+.community2 p {
+    text-align: center;
+    color: rgb(172, 174, 175);
+    font-size: 20px;
+    /* margin-left: 100px; */
+    margin-top: 2%;
+}
+.sour {
+    display: flex;
+    margin-left: 10px;
+}
+.sour a {
+    color: pink;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.skill {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 6%;
+}
+.skill button {
+    width: 90px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    margin-right: 50px;
+    border-radius: 12px;
+    background-color: brown;
+    color: antiquewhite;
+}
+.meme {
+    flex-direction: row;
+    display: flex;
+    margin-left: 19%;
+    margin-top: 4%;
+}
+.site img {
+    width: 100%;
+    height: 30vh;
+}
+.site2 img {
+    width: 100%;
+    height: 30vh;
+}
+.site h2 {
+    color: rgb(81, 161, 252);
+    font-size: 30px;
+    /* margin-top: 3%; */
+    margin-left: 130px;
+}
+.site p {
+    color: rgb(172, 174, 175);
+    margin-top: 3%;
+    font-size: 20px;
+    margin-left: 100px;
+    width: 60%;
+    text-align: center;
+}
+.site2 {
+    margin-left: 50px;
+}
+.site2 h1 {
+     color: rgb(81, 161, 252);
+    font-size: 30px;
+    margin-left: 130px;
+}
+.site2 p {
+    color: rgb(172, 174, 175);
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 100px;
+    width: 50%;
+    text-align: center;
+}
+.simple {
+    margin-top: 3%;
+}
+.simple a {
+    text-decoration: none;
+    margin-left: 40%;
+    color: pink;
+}
+.inline {
+     box-shadow:  3px 3px 20px rgb(250, 239, 218);;
+}
+.Game {
+    display: flex;
+    margin-top: 15%;
+    margin-left: 20%;
+}
+.Game button {
+    width: 90px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    margin-right: 20%;
+    border-radius: 12px;
+    background-color: brown;
+    color: antiquewhite;
+}
+.technology {
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+    height: 70vh; 
+    background-color:  rgb(54, 54, 75);
+}
+.work {
+    margin-left: 7%;
+    margin-top: 2%;
+}
+.work h5 {
+    color: rgb(151, 150, 150);
+    font-size: 60px;
+}
+.work p {
+    color: rgb(172, 174, 175);
+    font-size: 27px;
+    width: 60%;
+    margin-top: 3%;
+}
+.cloud {
+    color: white;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: row;
+    margin
+}
+.Front {
+    margin-left: 10%;
+}
+.Front h2,h3,h5 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.Front p {
+    margin-top: 10%;
+    color: rgb(172, 174, 175);
+    font-size: 20px;
+}
+.track {
+    height: 210vh;
+    width: 100%;
+    /* display: flex; */
+    background-color: rgb(54, 54, 75);
+}
+.tech {
+    display: flex;
+    margin-left: 10%;
+    color: rgb(172, 174, 175);
+    font-size: 60px;
+}
+.passion {
+    display: flex;
+    flex-direction: column;
+}
+.passion2 img {
+         width: 100%;
+    height: 300px;
+    margin-top: 3%;
+    /* margin-left: 2%; */
+}
+.passion img {
+    width: 100%;
+    height: 300px;
+    margin-top: 3%;
+} 
+.passion h2 {
+    color: rgb(81, 161, 252);
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 11%;
+}
+.passion p {
+    color: rgb(172, 174, 175);
+    font-size: 20px;
+    margin-top: 2%;
+    width: 70%;
+    margin-left: 50px;
+}
+.passion button {
+    width: 90px;
+    height: 40px;
+    margin-top: 8%;
+    border: none;
+    margin-bottom: 4%;
+    font-size: 15px;
+    margin-left: 25%;
+    border-radius: 12px;
+    background-color: brown;
+    color: antiquewhite;
+}
+.passion2 button {
+    width: 90px;
+    height: 40px;
+    margin-top: 8%;
+    border: none;
+    font-size: 15px;
+    margin-left: 30%;
+    margin-bottom: 4%;
+    border-radius: 12px;
+    background-color: brown;
+    color: antiquewhite;
+}
+.journey {
+    display: flex;
+    flex-direction: row;
+    margin-left: 17%;
+    
+}
+.passion2 {
+    margin-right: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.passion2 h4 {
+    color: rgb(81, 161, 252);
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 10%;
+}
+.passion2 p {
+    color: rgb(172, 174, 175);
+    font-size: 20px;
+    margin-top: 2%;
+    width: 70%;
+    margin-left: 10%;
+}
+.software {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 17%;
+}
+.development img {
+    width: 100%;
+    height: 300px;
+    /* margin-left: 19%; */
+}
+.development {
+    width: 38%;
+}
+.development2 {
+    width: 38%;
+    margin-left: 4%;
+}
+.development2 img {
+    width: 100%;
+    height: 300px;
+}
+.development h5 {
+    color: rgb(81, 161, 252);
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 30%;
+}
+.development p {
+    color: rgb(172, 174, 175);
+    font-size: 20px;
+    margin-top: 2%;
+    width: 70%;
+    margin-left: 18%;
+}
+.development button {
+    width: 90px;
+    height: 40px;
+    margin-top: 8%;
+    border: none;
+    font-size: 15px;
+    margin-left: 40%;
+    margin-bottom: 4%;
+    border-radius: 12px;
+    background-color: brown;
+    color: antiquewhite;
+}
+.development2 h4 {
+    color: rgb(81, 161, 252);
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 15%;
+    /* text-align: center; */
+}
+.development2 p {
+    color: rgb(172, 174, 175);
+    font-size: 20px;
+    margin-top: 2%;
+    width: 70%;
+    margin-left: 50px;
+}
+.development2 button {
+    width: 90px;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    font-size: 15px;
+    margin-left: 30%;
+    margin-bottom: 4%;
+    border-radius: 12px;
+    background-color: brown;
+    color: antiquewhite;
+}
+.mail {
+    display: flex;
+    margin-top: 8%;
+    margin-left: 20%;
+    border-top: 1px solid gray;
+}
+.end p {
+    color: rgb(172, 174, 175);
+    font-size: 24px;
+    font-weight: 200; 
+    /* margin-left: 10%; */
+    /* display: flex; */
+}
+.end h1 {
+    color: rgb(243, 74, 243);
+    font-size: 20px;
+}
+.end a {
+    color: white;
+    font-size: 20px;
+}
+.reach {
+    margin-left: 40%;
+    color: rgb(180, 176, 176);
+    font-size: 40px;
+    margin-top: 5%;
+}
